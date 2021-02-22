@@ -113,11 +113,7 @@ class Game_Running(Player,Deck):
             is_there_a_winner = winholder[0]
             round_counter +=1
         print(winholder[1])
-class BlackJack(Deck):
-    def __init__(self):
-        self.deck_of_cards = Deck()
-        self.deck_of_cards.shuffleDeck()
-    
+
 
 
 
